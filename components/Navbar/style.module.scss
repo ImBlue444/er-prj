@@ -1,0 +1,25 @@
+.Navbar {
+  margin: 0 auto;
+  width: 100%;
+  background-image: linear-gradient(
+    to bottom right,
+    gold,
+    rgba(0, 0, 0, 0.738)
+  );
+  ul {
+    font-family: "Cormorant Garamond", serif;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 5px;
+    font-size: 40px;
+    justify-content: space-evenly;
+    a {
+      color: black;
+      transition: all 0.3s;
+    }
+    a:hover {
+      color: white;
+    }
+  }
+}

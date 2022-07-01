@@ -1,0 +1,17 @@
+.Footer {
+  h2 {
+    font-size: 40px;
+  }
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  color: rgba(255, 255, 255, 0.768);
+  background-color: rgb(20, 20, 0);
+  background-image: linear-gradient(
+    to bottom right,
+    gold,
+    rgba(0, 0, 0, 0.738)
+  );
+  h5 {
+    padding-bottom: 15px;
+  }
+}

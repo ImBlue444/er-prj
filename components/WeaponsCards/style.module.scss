@@ -1,0 +1,15 @@
+.Cards {
+  img {
+    width: 280px;
+    max-height: 200px;
+  }
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  .Card {
+    border: 1px solid black;
+  }
+}
