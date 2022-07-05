@@ -20,8 +20,8 @@ function Cards(props) {
   console.log(incomingData);
   return (
     <div className={style.Cards}>
-      {incomingData.map((e) => (
-        <div className={style.Card}>
+      {incomingData.map((e, i) => (
+        <div key={i} className={style.Card}>
           <img src={e.image ? e.image : null} alt="Img not found...Sorry" />
           <h4>
             <b>{e.name}</b>
